@@ -1,0 +1,91 @@
+.loginPage {
+    background: url('Images/fbg.avif');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(0, 208, 255, 0.5)), url("Images/fbg.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(133, 245, 255, 0.6);
+    color: black;
+}
+
+
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.emp_det_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/* /////////// *//* Add this CSS to your stylesheet */
+#menu li {
+    border-radius: 10px; /* Add rounded borders */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  #menu li:hover,
+  #menu li:focus {
+    background-color: rgb(105, 230, 249);
+  }
+  
+  #menu li:hover a,
+  #menu li:focus a {
+    color: #fff; /* Change text color on hover and focus */
+  }
+  
+  #menu li {
+    transition: background-color 0.3s; /* Add smooth transition */
+  }
+  
+  #menu li a {
+    display: block;
+    padding: 0.75rem 1.5rem; /* Adjust padding as needed */
+    color: #212529; /* Set default text color */
+    text-decoration: none;
+  }
+  
+  #menu .fs-4 {
+    width: 1.5rem;
+  }
+  
+  #menu .nav-link span {
+    transition: opacity 0.3s;
+  }
+  
+  #menu li:hover .nav-link span,
+  #menu li:focus .nav-link span {
+    opacity: 1; /* Show span text on hover and focus */
+  }
+  
+  #menu .nav-link {
+    margin-left: 10px; /* Adjust left margin */
+  }
+  
+  #menu .fs-4 {
+    margin-right: 10px; /* Adjust right margin */
+  }
+  
+  #menu .selected {
+    background-color: rgb(42, 214, 241); /* Change background color for selected item */
+  }
+  
+  #menu .selected a {
+    color: #fff; /* Change text color for selected item */
+  }
+  /* #menu{
+    position: fixed;
+    margin-top: 13%;
+  }
+  .hidder{
+    position: fixed;
+  } */
+  .bg{
+    background-color: rgb(72, 198, 230);
+  }
